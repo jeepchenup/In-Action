@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Spring-Boot-Actuator-In-Action</module>
+        <module>Spring-Boot-Mail-In-Action</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

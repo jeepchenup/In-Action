@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Boot-Actuator-In-Action" />
+        <module name="Spring-Boot-Mail-In-Action" />
       </profile>
     </annotationProcessing>
   </component>

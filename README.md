@@ -26,3 +26,8 @@
         <scope>import</scope>
     </dependency>
     ```
+  
+## 包名命名规则
+以com.inaction.<module_name>开头
+
+例如module是Spring-Boot-Actuator-In-Action，那么包名将是以`com.inaction.springboot.actuator`开头。
