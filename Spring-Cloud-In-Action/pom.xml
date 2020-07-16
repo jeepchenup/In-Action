@@ -8,9 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <packaging>pom</packaging>
+    <modules>
+        <module>Spring-Cloud-Alibaba-Nacos-In-Action</module>
+    </modules>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Spring-Cloud-In-Action</artifactId>
-
-
 </project>

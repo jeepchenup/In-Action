@@ -26,6 +26,16 @@
         <scope>import</scope>
     </dependency>
     ```
+- Spring Cloud Alibaba
+    ```xml
+    <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.2.1.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+    </dependency>
+    ```
   
 ## 包名命名规则
 以com.inaction.<module_name>开头
