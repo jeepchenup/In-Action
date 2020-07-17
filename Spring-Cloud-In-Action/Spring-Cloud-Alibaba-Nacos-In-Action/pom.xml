@@ -9,40 +9,9 @@
     </parent>
     <packaging>pom</packaging>
     <modules>
-        <module>server-provider</module>
+        <module>nacos-provider-server</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Spring-Cloud-Alibaba-Nacos-In-Action</artifactId>
-
-    <!--<dependencyManagement>
-        <dependencies>
-            &lt;!&ndash; Spring Boot 依赖 &ndash;&gt;
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.3.1.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            &lt;!&ndash; Spring Cloud 依赖 &ndash;&gt;
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Hoxton.SR6</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            &lt;!&ndash; Spring Cloud Alibaba 依赖 &ndash;&gt;
-            <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>2.2.1.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>-->
 </project>

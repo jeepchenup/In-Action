@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Boot-Mail-In-Action" />
         <module name="Spring-Boot-Actuator-In-Action" />
-        <module name="server-provider" />
+        <module name="nacos-provider-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

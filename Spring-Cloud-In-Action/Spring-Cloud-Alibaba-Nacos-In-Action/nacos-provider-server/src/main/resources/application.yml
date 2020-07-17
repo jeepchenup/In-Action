@@ -1,0 +1,15 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: nacos-provider-app
+  cloud:
+    nacos:
+      discovery:
+        # 是否开启Nacos的服务发现功能
+        enabled: true
+        # 是否将当前服务注册到Nacos中，true表示确定注册
+        register-enabled: true
+        # Nacos服务地址（这个需要自己根据实际情况进行相应的修改）
+        server-addr: 192.168.29.130:8848

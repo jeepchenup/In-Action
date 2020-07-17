@@ -3,7 +3,6 @@ package com.inaction.springboot.mail.controller;
 import com.inaction.springboot.mail.pojo.Mail;
 import com.inaction.springboot.mail.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.mail.MailSender;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,9 +18,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/email")
 public class EmailController {
-
-    @Autowired
-    private MailSender mailSender;
 
     @Autowired
     private EmailService emailService;

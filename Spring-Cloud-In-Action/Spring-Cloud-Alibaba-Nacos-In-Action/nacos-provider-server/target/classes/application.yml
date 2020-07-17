@@ -11,5 +11,5 @@ spring:
         enabled: true
         # 是否将当前服务注册到Nacos中，true表示确定注册
         register-enabled: true
-        # Nacos服务地址
+        # Nacos服务地址（这个需要自己根据实际情况进行相应的修改）
         server-addr: 192.168.29.130:8848
