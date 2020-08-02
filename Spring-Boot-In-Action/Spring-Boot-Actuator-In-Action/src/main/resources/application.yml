@@ -1,0 +1,52 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: Spring-Boot-Actuator-In-Action-App
+  jmx:
+    # 只有开启jmx之后，才能通过JMX对Spring Boot应用程序进行监控和管理
+    enabled: true
+
+management:
+  endpoint:
+    # 日志端点：可以展示并修改当前应用的日志级别
+    loggers:
+      enabled: false
+    shutdown:
+      enabled: true
+    configprops:
+      enabled: true
+    env:
+      enabled: true
+    integrationgraph:
+      enabled: true
+    health:
+      enabled: true
+      # 展示健康细节
+      show-details: always
+      # 显示所有组件
+      show-components: always
+  endpoints:
+    # 设置所有端点默认禁用
+#    enabled-by-default: false
+    web:
+      exposure:
+      # 开放所有端点
+        include: "*"
+    jmx:
+      # 指定JMX domain
+      domain: com.springboot.actuator.inaction
+      exposure:
+        include: "*"
+#      include:
+#      - "shutdown"
+#      - "configprops"
+#      - "env"
+#      - "integrationgraph"
+
+info:
+  app:
+    encoding: "UTF-8"
+  java:
+    source: "JDK8"
+    target: "JDK8"
