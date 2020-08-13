@@ -1,0 +1,21 @@
+# 一旦项目作为配置中心（即引入了spring-cloud-starter-consul-config包）
+# 关于consul的配置必须放在bootstrap.yml中
+spring:
+  cloud:
+    consul:
+      # consul服务部署的IP地址
+      host: 192.168.29.130
+      # consul服务部署的端口
+      port: 8500
+      config:
+        enabled: true
+        # 配置文件类型：yaml/json/properties
+        format: yaml
+        # 读取${prefix}/${defaultContext}/${data-key}路径下的配置信息
+        prefix: config
+        # 默认上下文，默认值为${spring.application.name}
+        defaultContext: consul-config
+        data-key: cloud-config
+        # 开启Consul原生watch功能
+        watch:
+          enabled: true

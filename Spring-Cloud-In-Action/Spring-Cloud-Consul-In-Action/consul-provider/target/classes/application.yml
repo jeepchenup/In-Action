@@ -1,0 +1,29 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: consul-provider-app
+  cloud:
+    consul:
+      # consul服务部署的IP地址
+      host: 192.168.29.130
+      # consul服务部署的端口
+      port: 8500
+      discovery:
+        # 是否启用服务发现，true表示可以查看到Consul上注册的其他服务
+        enabled: true
+        # true表示将当前服务注册到Consul服务中
+        register: true
+        # true表示禁用服务自动注销在Consul上的注册
+        # 在consul服务器上执行：curl http://127.0.0.1:8500/v1/agent/services将发现服务信息不存在了
+        deregister: false
+        # 健康检查超时，超时之后，UI界面将显示为红色
+        health-check-timeout: 5s
+        # 决定性超时，这个是用来判断服务是否下线了，最大可设置为30m（分钟）
+        health-check-critical-timeout: 1s
+        # 服务标签
+        tags:
+          - serviceName=Consul-Provider
+        # 告诉Consul代理服务，当前应用所在的IP，不设置，Consul代理服务将无法感知当前服务的健康状态
+        hostname: 192.168.29.222

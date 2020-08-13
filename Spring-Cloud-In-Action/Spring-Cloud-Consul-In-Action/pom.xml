@@ -3,16 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>In-Action</artifactId>
+        <artifactId>Spring-Cloud-In-Action</artifactId>
         <groupId>com.inaction</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <packaging>pom</packaging>
     <modules>
-        <module>Spring-Cloud-Alibaba-Nacos-In-Action</module>
-        <module>Spring-Cloud-Consul-In-Action</module>
+        <module>consul-provider</module>
+        <module>consul-consumer</module>
+        <module>consul-config-center</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Spring-Cloud-In-Action</artifactId>
+    <artifactId>Spring-Cloud-Consul-In-Action</artifactId>
+
+
 </project>

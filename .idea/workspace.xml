@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-In-Action/pom.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Alibaba-Nacos-In-Action/server-provider/src/main/resources/application.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Consul-In-Action/consul-provider/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3494253" />
@@ -60,9 +65,34 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.inaction.consul.provider" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\In-Action\Spring-Cloud-In-Action\Spring-Cloud-Consul-In-Action\consul-provider\src\main\resources" />
       <recent name="E:\projects\In-Action\Spring-Cloud-In-Action\Spring-Cloud-Alibaba-Nacos-In-Action\server-provider\src\main\resources" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:7000/actuator/health" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v3+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -70,18 +100,46 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Spring-Boot-Actuator-In-Action" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.actuator.inaction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.actuator.inaction.Application" />
-      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+FlightRecorder" />
+  <component name="RunManager" selected="Spring Boot.Consul-Config-9000">
+    <configuration name="Consul-Config-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-config-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.config.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consul-Consumer-8000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.consumer.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consul-Provider-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.provider.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consul-Provider-7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.provider.Application" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=7001" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,6 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring-Boot-Actuator-App-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="Spring-Boot-Actuator-In-Action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.actuator.inaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.actuator.inaction.Application" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+FlightRecorder" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring-Boot-Email-App-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="Spring-Boot-Mail-In-Action" />
       <extension name="coverage">
@@ -131,38 +204,36 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Consul-Provider-7000" />
+      <item itemvalue="Spring Boot.Consul-Provider-7001" />
+      <item itemvalue="Spring Boot.Consul-Consumer-8000" />
+      <item itemvalue="Spring Boot.Consul-Config-9000" />
       <item itemvalue="Spring Boot.Nacos-Provider-7000" />
       <item itemvalue="Spring Boot.Nacos-Provider-7001" />
       <item itemvalue="Spring Boot.Spring-Boot-Email-App-7000" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Spring-Boot-Actuator-App-7000" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Spring-Boot-Actuator-App-7000" />
         <item itemvalue="Spring Boot.Spring-Boot-Email-App-7000" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.16950673" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2dc363f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -185,7 +256,18 @@
       <workItem from="1594978784914" duration="5009000" />
       <workItem from="1596256841146" duration="392000" />
       <workItem from="1596257238649" duration="16890000" />
+      <workItem from="1597037477370" duration="4379000" />
+      <workItem from="1597142725378" duration="4625000" />
+      <workItem from="1597301089374" duration="9191000" />
     </task>
+    <task id="LOCAL-00001" summary="支持prometheus">
+      <created>1597302367802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597302367802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +285,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="支持prometheus" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持prometheus" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596340039464">

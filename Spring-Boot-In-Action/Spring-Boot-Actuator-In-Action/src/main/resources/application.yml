@@ -11,7 +11,7 @@ management:
   endpoint:
     # 日志端点：可以展示并修改当前应用的日志级别
     loggers:
-      enabled: false
+      enabled: true
     shutdown:
       enabled: true
     configprops:

@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Boot-Mail-In-Action" />
-        <module name="Spring-Boot-Actuator-In-Action" />
+        <module name="consul-provider" />
         <module name="nacos-provider-server" />
+        <module name="Spring-Boot-Actuator-In-Action" />
+        <module name="Spring-Boot-Mail-In-Action" />
+        <module name="consul-consumer" />
+        <module name="consul-config-center" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
