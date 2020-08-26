@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-In-Action/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Mail-In-Action/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Mail-In-Action/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +259,13 @@
       <workItem from="1596257238649" duration="16890000" />
       <workItem from="1597037477370" duration="4379000" />
       <workItem from="1597142725378" duration="4625000" />
-      <workItem from="1597301089374" duration="9191000" />
+      <workItem from="1597301089374" duration="13456000" />
+      <workItem from="1597460104585" duration="721000" />
+      <workItem from="1597475507653" duration="506000" />
+      <workItem from="1597477177278" duration="1252000" />
+      <workItem from="1597486850046" duration="1317000" />
+      <workItem from="1598000858497" duration="1840000" />
+      <workItem from="1598250449043" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="支持prometheus">
       <created>1597302367802</created>

@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/Spring-Boot-In-Action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Actuator-In-Action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Mail-In-Action" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Test-In-Action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Alibaba-Nacos-In-Action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Alibaba-Nacos-In-Action/nacos-provider-server" charset="UTF-8" />
@@ -12,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Consul-In-Action/consul-config-center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Consul-In-Action/consul-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Consul-In-Action/consul-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Netflix-Eureka-In-Action" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
