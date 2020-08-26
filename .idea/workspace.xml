@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Mail-In-Action/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Mail-In-Action/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,6 +260,7 @@
       <workItem from="1597486850046" duration="1317000" />
       <workItem from="1598000858497" duration="1840000" />
       <workItem from="1598250449043" duration="18000" />
+      <workItem from="1598410822012" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="支持prometheus">
       <created>1597302367802</created>
@@ -274,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597302367802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目">
+      <created>1598411078165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598411078166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +297,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="支持prometheus" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持prometheus" />
+    <MESSAGE value="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596340039464">
