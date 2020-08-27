@@ -1,0 +1,34 @@
+logging:
+  level:
+    root: debug
+
+server:
+  port: 6060
+spring:
+  application:
+    name: Eureka-Server
+
+eureka:
+  instance:
+    hostname: localhost
+  server:
+    # 开启自我保护机制
+    enable-self-preservation: true
+    # 下面是针对于自我保护机制触发的一些条件，默认配置下，如果客户端超过（0.85*15）12.75分钟没有通知Eureka服务进行续租，那么Eureka将开启自我保护机制
+    # 配合renewal-threshold-update-interval-ms配置，计算出客户端在多久时间内没有进行续租（其实就是与Eureka服务进行通信），
+    # 那么就开启自我保护机制（如果enable-self-preservation设置为false，那么不触发自我保护机制），默认值：0.85
+    renewal-percent-threshold: 0.85
+    # 续租阈值更新间隔时间（毫秒）：这个参数是配合renewal-percent-threshold参数使用，默认值：15分钟
+    renewal-threshold-update-interval-ms: 60000
+    # 期望客户端多久一次发送它们各自的心跳时间间隔（秒），
+    # 注意：这个值必须和客户端上的配置保持一致，最好是所有应用集群都是用同一个时间，不然Eureka的自我保护机制触发场景将不会和预想中那样工作
+    expected-client-renewal-interval-seconds: 30
+    # 执行驱逐不可用服务任务时间间隔（毫秒），默认值：1分钟
+    eviction-interval-timer-in-ms: 60000
+  client:
+    # 是否向Eureka服务器上注册本服务
+    register-with-eureka: false
+    # 是否获取Eureka上注册的服务信息
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="" />
+    <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Netflix-Eureka-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Netflix-Eureka-In-Action/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Consul-Config-9000">
+  <component name="RunManager" selected="Spring Boot.Eureka-Server-6060">
     <configuration name="Consul-Config-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consul-config-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.config.Application" />
@@ -134,6 +139,31 @@
     <configuration name="Consul-Provider-7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consul-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.provider.Application" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Server-6060" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.server.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Server-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.provider.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Server-7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.provider.Application" />
       <option name="VM_PARAMETERS" value="-Dserver.port=7001" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -203,6 +233,9 @@
       <item itemvalue="Spring Boot.Consul-Provider-7001" />
       <item itemvalue="Spring Boot.Consul-Consumer-8000" />
       <item itemvalue="Spring Boot.Consul-Config-9000" />
+      <item itemvalue="Spring Boot.Eureka-Server-6060" />
+      <item itemvalue="Spring Boot.Eureka-Server-7000" />
+      <item itemvalue="Spring Boot.Eureka-Server-7001" />
       <item itemvalue="Spring Boot.Nacos-Provider-7000" />
       <item itemvalue="Spring Boot.Nacos-Provider-7001" />
       <item itemvalue="Spring Boot.Spring-Boot-Email-App-7000" />
@@ -223,7 +256,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2dc363f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2cfa3190" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +293,8 @@
       <workItem from="1597486850046" duration="1317000" />
       <workItem from="1598000858497" duration="1840000" />
       <workItem from="1598250449043" duration="18000" />
-      <workItem from="1598410822012" duration="258000" />
+      <workItem from="1598410822012" duration="18908000" />
+      <workItem from="1598492978175" duration="3339000" />
     </task>
     <task id="LOCAL-00001" summary="支持prometheus">
       <created>1597302367802</created>
@@ -276,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598411078166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目">
+      <created>1598411091897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598411091897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

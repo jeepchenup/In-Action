@@ -1,0 +1,16 @@
+logging:
+  level:
+    root: debug
+server:
+  port: 7000
+spring:
+  application:
+    name: eureka-provider
+eureka:
+  client:
+    # 是否注册到Eureka
+    register-with-eureka: true
+    # 是否获取到Eureka上的注册信息
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:6060/eureka/

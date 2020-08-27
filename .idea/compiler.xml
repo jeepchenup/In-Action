@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consul-provider" />
         <module name="nacos-provider-server" />
-        <module name="Spring-Boot-Actuator-In-Action" />
+        <module name="eureka-server" />
+        <module name="Spring-Boot-Test-In-Action" />
         <module name="Spring-Boot-Mail-In-Action" />
+        <module name="eureka-provider" />
         <module name="consul-consumer" />
         <module name="consul-config-center" />
-        <module name="Spring-Boot-Test-In-Action" />
+        <module name="Spring-Boot-Actuator-In-Action" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
