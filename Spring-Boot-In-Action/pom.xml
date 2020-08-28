@@ -12,6 +12,7 @@
         <module>Spring-Boot-Actuator-In-Action</module>
         <module>Spring-Boot-Mail-In-Action</module>
         <module>Spring-Boot-Test-In-Action</module>
+        <module>Spring-Boot-Arthas-Inaction</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

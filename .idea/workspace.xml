@@ -5,7 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Netflix-Eureka-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Netflix-Eureka-In-Action/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +112,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka-Server-6060">
+  <component name="RunManager" selected="Spring Boot.Arthas-App-7000">
+    <configuration name="Arthas-App-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Boot-Arthas-Inaction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.arthas.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Consul-Config-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consul-config-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.consul.config.Application" />
@@ -229,6 +238,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Arthas-App-7000" />
       <item itemvalue="Spring Boot.Consul-Provider-7000" />
       <item itemvalue="Spring Boot.Consul-Provider-7001" />
       <item itemvalue="Spring Boot.Consul-Consumer-8000" />
@@ -294,7 +304,7 @@
       <workItem from="1598000858497" duration="1840000" />
       <workItem from="1598250449043" duration="18000" />
       <workItem from="1598410822012" duration="18908000" />
-      <workItem from="1598492978175" duration="3339000" />
+      <workItem from="1598492978175" duration="8759000" />
     </task>
     <task id="LOCAL-00001" summary="支持prometheus">
       <created>1597302367802</created>
@@ -317,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598411091897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="创建eureka-server和eureka-provider项目">
+      <created>1598519831000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598519831000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +356,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="支持prometheus" />
     <MESSAGE value="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目" />
+    <MESSAGE value="创建eureka-server和eureka-provider项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建eureka-server和eureka-provider项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596340039464">

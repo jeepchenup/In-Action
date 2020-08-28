@@ -1,0 +1,18 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: Arthas-Application
+
+arthas:
+  tunnel-server: ws://192.168.29.130:7777/ws
+  # 代理唯一ID（必须要写）
+  agent-id: dfjdjfhjkdfuehuhufrhijmdb
+management:
+  endpoint:
+    arthas:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "arthas"
