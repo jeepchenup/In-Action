@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1c2185-83f7-4981-871a-8004d30ceaaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Test-In-Action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-In-Action/Spring-Boot-Test-In-Action/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -53,25 +56,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-Cloud-In-Action/Spring-Cloud-Consul-In-Action/consul-provider/src/main/resources" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intserv.cloud.busi/Branches/intserv.cloud.busi-77628-2020.09.14" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3494253" />
-    <property name="settings.editor.selected.configurable" value="reactor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.inaction.junit5" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\In-Action\Spring-Boot-In-Action\Spring-Boot-Test-In-Action" />
+      <recent name="E:\projects\In-Action\Spring-Cloud-In-Action\Spring-Cloud-Consul-In-Action\consul-provider\src\main\resources" />
+      <recent name="E:\projects\In-Action\Spring-Cloud-In-Action\Spring-Cloud-Alibaba-Nacos-In-Action\server-provider\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.inaction.consul.provider" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\projects\In-Action\Spring-Cloud-In-Action\Spring-Cloud-Consul-In-Action\consul-provider\src\main\resources" />
-      <recent name="E:\projects\In-Action\Spring-Cloud-In-Action\Spring-Cloud-Alibaba-Nacos-In-Action\server-provider\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\In-Action" />
+      <recent name="E:\projects\In-Action\Spring-Boot-In-Action\Spring-Boot-Test-In-Action\src" />
+      <recent name="E:\projects\In-Action\Spring-Boot-In-Action\Spring-Boot-Test-In-Action\src\main" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -112,7 +123,98 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Arthas-App-7000">
+  <component name="RunManager" selected="JUnit.StringTests">
+    <configuration name="MyRandomParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5-In-Action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inaction.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inaction.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.inaction.junit5.MyRandomParametersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRandomParametersTest.injectsInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5-In-Action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inaction.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inaction.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.inaction.junit5.MyRandomParametersTest" />
+      <option name="METHOD_NAME" value="injectsInteger(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5-In-Action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inaction.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inaction.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.inaction.junit5.StringTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInfoDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5-In-Action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inaction.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inaction.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.inaction.junit5.TestInfoDemo" />
+      <option name="METHOD_NAME" value="test1(org.junit.jupiter.api.TestInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReporterDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5-In-Action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inaction.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inaction.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.inaction.junit5.TestReporterDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Boot-Actuator-In-Action" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.actuator.inaction.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Boot-Mail-In-Action" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.springboot.mail.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Arthas-App-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-Boot-Arthas-Inaction" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.arthas.Application" />
@@ -154,15 +256,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka-Server-6060" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.server.Application" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka-Server-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Eureka-Provider-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.provider.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -170,10 +264,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka-Server-7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Eureka-Provider-7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.provider.Application" />
       <option name="VM_PARAMETERS" value="-Dserver.port=7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka-Server-6060" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.eureka.server.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,35 +310,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring-Boot-Actuator-App-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="Spring-Boot-Actuator-In-Action" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.actuator.inaction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.actuator.inaction.Application" />
-      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+FlightRecorder" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring-Boot-Email-App-7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="Spring-Boot-Mail-In-Action" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.inaction.springboot.mail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inaction.springboot.mail.Application" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.Arthas-App-7000" />
       <item itemvalue="Spring Boot.Consul-Provider-7000" />
@@ -244,17 +317,25 @@
       <item itemvalue="Spring Boot.Consul-Consumer-8000" />
       <item itemvalue="Spring Boot.Consul-Config-9000" />
       <item itemvalue="Spring Boot.Eureka-Server-6060" />
-      <item itemvalue="Spring Boot.Eureka-Server-7000" />
-      <item itemvalue="Spring Boot.Eureka-Server-7001" />
+      <item itemvalue="Spring Boot.Eureka-Provider-7000" />
+      <item itemvalue="Spring Boot.Eureka-Provider-7001" />
       <item itemvalue="Spring Boot.Nacos-Provider-7000" />
       <item itemvalue="Spring Boot.Nacos-Provider-7001" />
-      <item itemvalue="Spring Boot.Spring-Boot-Email-App-7000" />
-      <item itemvalue="Spring Boot.Spring-Boot-Actuator-App-7000" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="JUnit.TestInfoDemo.test1" />
+      <item itemvalue="JUnit.TestReporterDemo" />
+      <item itemvalue="JUnit.MyRandomParametersTest" />
+      <item itemvalue="JUnit.MyRandomParametersTest.injectsInteger" />
+      <item itemvalue="JUnit.StringTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Spring-Boot-Actuator-App-7000" />
-        <item itemvalue="Spring Boot.Spring-Boot-Email-App-7000" />
+        <item itemvalue="JUnit.StringTests" />
+        <item itemvalue="JUnit.MyRandomParametersTest.injectsInteger" />
+        <item itemvalue="JUnit.MyRandomParametersTest" />
+        <item itemvalue="JUnit.TestReporterDemo" />
+        <item itemvalue="JUnit.TestInfoDemo.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +347,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2cfa3190" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4dc7b629" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +385,17 @@
       <workItem from="1598000858497" duration="1840000" />
       <workItem from="1598250449043" duration="18000" />
       <workItem from="1598410822012" duration="18908000" />
-      <workItem from="1598492978175" duration="8759000" />
+      <workItem from="1598492978175" duration="14706000" />
+      <workItem from="1598948293518" duration="614000" />
+      <workItem from="1598955920796" duration="1529000" />
+      <workItem from="1599183346896" duration="1900000" />
+      <workItem from="1599448276708" duration="15115000" />
+      <workItem from="1599788548073" duration="4462000" />
+      <workItem from="1600046685354" duration="533000" />
+      <workItem from="1600047464761" duration="13044000" />
+      <workItem from="1600152492955" duration="10670000" />
+      <workItem from="1600305545503" duration="10429000" />
+      <workItem from="1600761711189" duration="12346000" />
     </task>
     <task id="LOCAL-00001" summary="支持prometheus">
       <created>1597302367802</created>
@@ -334,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598519831000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="创建Arthas-In-Action项目">
+      <created>1598597244142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598597244142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +455,8 @@
     <MESSAGE value="支持prometheus" />
     <MESSAGE value="创建Spring-Boot-Test-In-Action和Spring-Cloud-Netflix-Eureka-In-Action两个项目" />
     <MESSAGE value="创建eureka-server和eureka-provider项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建eureka-server和eureka-provider项目" />
+    <MESSAGE value="创建Arthas-In-Action项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建Arthas-In-Action项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596340039464">
@@ -436,5 +535,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-353.-1440.2560.1400@0.0.1920.1040" timestamp="1596357518481" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Junit5-In-Action/src/test/java/com/inaction/junit5/TestInfoDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Junit5-In-Action/src/test/java/com/inaction/junit5/MyRandomParametersTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/In_Action$retrieveKedouAccountInfo.coverage" NAME="retrieveKedouAccountInfo Coverage Results" MODIFIED="1600762002450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-In-Action" />
+    <SUITE FILE_PATH="coverage/In_Action$batchRegisterKedouIds.coverage" NAME="batchRegisterKedouIds Coverage Results" MODIFIED="1600667934633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-In-Action" />
+    <SUITE FILE_PATH="coverage/In_Action$biying.coverage" NAME="biying Coverage Results" MODIFIED="1600047761780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-In-Action" />
   </component>
 </project>

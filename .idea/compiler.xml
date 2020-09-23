@@ -9,12 +9,13 @@
         <module name="consul-provider" />
         <module name="nacos-provider-server" />
         <module name="eureka-server" />
-        <module name="Spring-Boot-Test-In-Action" />
+        <module name="consul-config-center" />
         <module name="Spring-Boot-Mail-In-Action" />
+        <module name="Spring-Boot-Test-In-Action" />
         <module name="eureka-provider" />
         <module name="consul-consumer" />
         <module name="Spring-Boot-Arthas-Inaction" />
-        <module name="consul-config-center" />
+        <module name="Junit5-In-Action" />
         <module name="Spring-Boot-Actuator-In-Action" />
       </profile>
     </annotationProcessing>
